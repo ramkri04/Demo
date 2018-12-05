@@ -1,5 +1,5 @@
 (function main(React, ReactNative, componentState,Button, require) {
-    'use strict';
+    'use strict' ;
 
     Object.defineProperty(exports, "__esModule", {
         value: true
