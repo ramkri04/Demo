@@ -18,10 +18,10 @@
     
     var _reactNative = ReactNative;
     var root = this;
-    return react_1.createElement(_reactNative.View, { style : { "backgroundColor":"lightgrey"}},
+    return react_1.createElement(_reactNative.View, { style : { "backgroundColor":"lightgrey",
+                                                                 paddingTop:_reactNative.Platform === 'ios'?100:5}},
 
-        [react_1.createElement(_reactNative.View,{ style : { "backgroundColor":"lightgrey",
-                                                                 paddingTop:_reactNative.Platform==='ios'?100:5}},
+        [react_1.createElement(_reactNative.View,
 
             {
                 "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_notificationMessage",
