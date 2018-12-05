@@ -18,7 +18,7 @@
     var _reactNative = ReactNative;
     var root = this;
     return react_1.createElement(_reactNative.View, { style : { "backgroundColor":"lightgrey",
-                                                               "marginTop":react_1.createElement(_reactNative.Platform.OS === 'ios'?20:5)}},
+                                                               marginTop:20}},
                            
         [react_1.createElement(_reactNative.View,
 
