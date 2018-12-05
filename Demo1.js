@@ -1,5 +1,5 @@
-(function main(React, ReactNative, componentState,Button require) {
-    'use strict' ;
+(function main(React, ReactNative, componentState,Button, require) {
+    'use strict';
 
     Object.defineProperty(exports, "__esModule", {
         value: true
@@ -17,9 +17,8 @@
     
     var _reactNative = ReactNative;
     var root = this;
-    return react_1.createElement(_reactNative.View, { style : { "backgroundColor":"lightgrey",
-                                                               marginTop:20}},
-                           
+    return react_1.createElement(_reactNative.View, { style : { "backgroundColor":"lightgrey"}},
+
         [react_1.createElement(_reactNative.View,
 
             {
@@ -113,5 +112,4 @@
             }
         }, ["Cancel"])
         ])
-    
 })
