@@ -1,4 +1,4 @@
-(function main(React, ReactNative, componentState,Button, require) {
+(function main(React, ReactNative, componentState,Button,Platform require) {
     'use strict';
 
     Object.defineProperty(exports, "__esModule", {
