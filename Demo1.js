@@ -103,7 +103,7 @@
             onClick: function () {
                 return root.submitChangeLoginName()
             }
-        }, ["Save Changes"]),
+        }, ["can I change"]),
         react_1.createElement(Button, {
             "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnCancel",
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnCancel",
