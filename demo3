@@ -1,0 +1,66 @@
+(function main(React, ReactNative, componentState,Button, require) {
+    'use strict' ;
+
+    Object.defineProperty(exports, "__esModule", {
+        value: true
+    });
+
+    function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : {
+            default: obj
+        };
+    }
+
+    var react_1 = React;
+
+    //var react_1 = _interopRequireDefault(_react)
+    
+    
+    var _reactNative = ReactNative;
+    var root = this;
+    return {
+    type: "View",
+    props: { mdp: true, style: { height: 300, borderWidth: 1, marginTop: 50, backgroundColor: "#F3E5F5" } },
+    children: [
+      {
+        type: "View",
+        props: { flex: true },
+        children: [
+          {
+            type: "View",
+            props: { style: {marginTop:50} },
+            children: [
+              {
+                type: "TextInput",
+                children: "Change User ID",
+              },
+            ]
+          },
+          {
+            type: "View",
+            props: { style: { } },
+            children: [
+              {
+                type: "TextInput",
+				children:"Conform ID"
+              },
+            ]
+          },
+        ]
+      },
+      {
+        type: "Button",
+        props: {
+          onPress: "function::notification.onPress(${text::item.info.buttonName})",
+          style: {justifyContent:'center'}
+        },
+        children: [
+          {
+            type: "Text",
+            props: { style: { color: "blue",borderColor:"blue",borderWidth:1,paddingLeft:40,backgroundColor:"white"} },
+            children: "Save Changes",
+          }
+        ]
+      }
+    ]
+  }
