@@ -41,7 +41,7 @@
     }, [react_1.createElement(reactNative.Text, {
         "htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
         "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03_label"
-    }, "Existing User ID")]), react_1.createElement("Text", {
+    }, "Existing User ID")]), react_1.createElement(reactNative.Text, {
         "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
         "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
         "cssClass": "form-field-value",
