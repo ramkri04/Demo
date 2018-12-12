@@ -59,7 +59,7 @@ $set: value
 });
 })
 }
-}, [])]), react_1.createElement(reactNative.View, {
+}, [])]), /*react_1.createElement(reactNative.View, {
 "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_field_container"
 }, [react_1.createElement(reactNative.View, {
 "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_label_container"
@@ -133,4 +133,4 @@ return view.submitChangeLoginName()
 return view.cancelChangeLoginName()
 }
 }, ["Cancel"])])
-})
+})*/
