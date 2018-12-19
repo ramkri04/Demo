@@ -1,10 +1,10 @@
-(function main(React, ReactNative, componentState, Button, Footer, StyleSheet, responsiveHeight, responsiveFontSize, require) {
+(function main(React, ReactNative, componentState, Button, Footer, responsiveHeight, responsiveFontSize, require) {
     
     var react_1 = React;
     var _reactNative = ReactNative;
     var root = this;
      
-  var styles = StyleSheet.create({
+  var styles ={
    container: {
      flex: 1,
      padding : responsiveHeight(4)
@@ -46,7 +46,7 @@
    marginTop:responsiveHeight(3),
    color:"gray"
   }
-});
-return react_1.createElement(_reactNative.createElement(styles));
+};
+return react_1.createElement(_reactNative.createElement( StyleSheet.create(styles));
 });
     
