@@ -1,14 +1,13 @@
 (function main(React, ReactNative, componentState, Button, Footer, StyleSheet, responsiveHeight, responsiveFontSize, require) {
     
     var react_1 = React;
-
     var _reactNative = ReactNative;
-
     var root = this;
-  var styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding : responsiveHeight(4)
+    
+  var styles = _reactNative.createElement(StyleSheet.create({
+   container: {
+     flex: 1,
+     padding : responsiveHeight(4)
   },
   loadingView: {
     flex: 1,
@@ -47,7 +46,7 @@
    marginTop:responsiveHeight(3),
    color:"gray"
   }
-});
+}));
 
 });
     
