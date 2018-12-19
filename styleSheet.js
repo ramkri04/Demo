@@ -4,7 +4,7 @@
     var _reactNative = ReactNative;
     var root = this;
      
-  var styles = _reactNative.createElement(StyleSheet.create({
+  var styles = StyleSheet.create({
    container: {
      flex: 1,
      padding : responsiveHeight(4)
@@ -47,6 +47,6 @@
    color:"gray"
   }
 }));
-return react_1.createElement(styles);
+return react_1.createElement( _reactNative.createElement(styles));
 });
     
