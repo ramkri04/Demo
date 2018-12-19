@@ -46,7 +46,7 @@
    marginTop:responsiveHeight(3),
    color:"gray"
   }
-}));
+});
 return react_1.createElement( _reactNative.createElement(styles));
 });
     
