@@ -1,4 +1,4 @@
-(function main(React, ReactNative, componentState, Button, Footer, responsiveHeight,StyleSheet, responsiveFontSize, require) {
+(function main(React, ReactNative, componentState, Button, Footer, responsiveHeight,StyleSheet, require) {
     
     var react_1 = React;
     var _reactNative = ReactNative;
@@ -17,7 +17,7 @@
     padding: responsiveHeight(2)
   },
   saveButton: {
-    fontSize: responsiveFontSize(2),
+    fontSize: 12,
     fontWeight: "normal",
     padding: responsiveHeight(0.5),
     borderWidth: responsiveHeight(0.1),
@@ -25,7 +25,7 @@
     marginTop:responsiveHeight(2)
   },
   cancelButton: {
-    fontSize: responsiveFontSize(2),
+    fontSize: 12,
     fontWeight: "normal",
     padding: responsiveHeight(0.5),
     marginTop:responsiveHeight(6),
