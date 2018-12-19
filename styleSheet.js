@@ -47,7 +47,6 @@
    color:"gray"
   }
 };
-    
 return react_1.createElement(_reactNative.createElement(StyleSheet.create(styles)));
 });
     
