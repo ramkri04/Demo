@@ -3,7 +3,7 @@
     var react_1 = React;
     var _reactNative = ReactNative;
     var root = this;
-    
+     
   var styles = _reactNative.createElement(StyleSheet.create({
    container: {
      flex: 1,
@@ -47,6 +47,6 @@
    color:"gray"
   }
 }));
-
+return react_1.createElement(styles);
 });
     
