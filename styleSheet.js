@@ -1,4 +1,4 @@
-(function main(React, ReactNative, componentState, Button, Footer, responsiveHeight,StyleSheet, require) {
+(function main(React, ReactNative, componentState, Button, Footer,StyleSheet, require) {
     
     var react_1 = React;
     var _reactNative = ReactNative;
@@ -7,43 +7,43 @@
 return react_1.createElement({
    container: {
      flex: 1,
-     padding : responsiveHeight(4)
+     padding : 4
   },
   loadingView: {
     flex: 1,
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: responsiveHeight(2)
+    padding: 2
   },
   saveButton: {
     fontSize: 12,
     fontWeight: "normal",
-    padding: responsiveHeight(0.5),
-    borderWidth: responsiveHeight(0.1),
+    padding: 0.5,
+    borderWidth:0.1,
     borderColor: "#0061b8", backgroundColor: "white",
-    marginTop:responsiveHeight(2)
+    marginTop:2
   },
   cancelButton: {
     fontSize: 12,
     fontWeight: "normal",
-    padding: responsiveHeight(0.5),
-    marginTop:responsiveHeight(6),
+    padding: 0.5,
+    marginTop:6,
     color: "white",
-    borderWidth: responsiveHeight(0.1),
+    borderWidth: 0.1,
     borderColor: "#015EBF", backgroundColor: "#0061b8"
   },
   padding: {
-    padding: responsiveHeight(2),
+    padding: 2,
   },
   textInput : {
     borderWidth: 0.9, padding: 0, 
     backgroundColor: "white", 
     borderColor: "gray",
-    marginTop:responsiveHeight(1)
+    marginTop:1
   },
   labelMargin : {
-   marginTop:responsiveHeight(3),
+   marginTop:3,
    color:"gray"
   }
 });
