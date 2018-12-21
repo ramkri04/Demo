@@ -1,4 +1,4 @@
-{
+[{
    "container": {
      "flex": "1",
      "padding" : "responsiveHeight(4)"
@@ -41,4 +41,4 @@
    "marginTop":"responsiveHeight(3)",
    "color":"gray"
   }
-}
+}]
