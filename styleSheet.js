@@ -47,5 +47,6 @@ return react_1.createElement(_reactNative.StyleSheet.create({
    color:"gray"
   }
 }));
+    
 });
     
