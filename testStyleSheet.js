@@ -28,7 +28,7 @@
     "borderColor": "#015EBF", "backgroundColor": "#0061b8"
   },
   "padding": {
-    "padding": "responsiveHeight(2)",
+    "padding": "responsiveHeight(2)"
   },
   "textInput" : {
     "borderWidth": "0.9",
