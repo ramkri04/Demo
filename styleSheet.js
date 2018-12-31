@@ -1,9 +1,5 @@
 (function main(StyleSheet) {
-    
-    var react_1 = React;
-    var _reactNative = ReactNative;
-    var root = this;
-     
+   
 return react_1.createElement(StyleSheet.create({
    container: {
      flex: 1,
