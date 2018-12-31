@@ -42,7 +42,7 @@ return react_1.createElement(StyleSheet.create({
    marginTop:3,
    color:"gray"
   }
-}));
+});
 
 });
     
