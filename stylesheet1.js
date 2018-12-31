@@ -1,6 +1,6 @@
 (function main(StyleSheet) {
    
-return react_1.createElement(StyleSheet.create({
+return StyleSheet.create({
    container: {
      flex: 1,
      padding : 4
