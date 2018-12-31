@@ -1,4 +1,4 @@
-(function main(React, ReactNative, componentState, Button, Footer,StyleSheet, require) {
+(function main(StyleSheet) {
     
     var react_1 = React;
     var _reactNative = ReactNative;
