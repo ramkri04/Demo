@@ -47,24 +47,16 @@
              style : styles.textInput,
             "fieldCssClass": "",
             "bindingMode": "",
-        }, [])])]), react_1.createElement(Button, {
-            "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnConfirm",
-            "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnConfirm",
-            "cssClass": "btn btn-primary btn-full-width component-group",
-            "Label": "Save Changes",
-            style :  styles.loginButton,
-            onPress: function () {
-                alert(componentState.state.confirmUserId)
-            }
-        }, ["Save Changes"]),
-        react_1.createElement(Button, {
+        }, [])])]),react_1.createElement(Button, {
             "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnCancel",
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnCancel",
-            "cssClass": "btn btn-secondary btn-full-width component-group",
-            "Label": "Cancel",
-            style :  styles.loginButton,
-            onPress: function () {
-            }
-        }, ["Cancel"])
+            style : styles.loginButton,
+        },
+        [react_1.createElement(_reactNative.Text, {
+            "htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
+            "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02_Label",
+            style : styles.labelMargin
+        }, ["LOGIN"])]
+        ["Cancel"])
     
 })
