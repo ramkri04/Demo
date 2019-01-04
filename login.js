@@ -1,4 +1,4 @@
-(function main(React, ReactNative, NativeBase,componentState, styles, require) {
+(function main(React, ReactNative,componentState, styles, require) {
     'use strict';
 
     Object.defineProperty(exports, "__esModule", {
@@ -6,7 +6,6 @@
     });
 
     var react_1 = React;
-    var _nativebase = NativeBase;
     var _reactNative = ReactNative;
 
     var root = this;
