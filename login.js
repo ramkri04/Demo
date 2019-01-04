@@ -11,45 +11,9 @@
 
     var root = this;
 
-    return react_1.createElement(_reactNative.View, { style:styles.container },
+    return react_1.createElement(_reactNative.View, { style:styles.containerStyle },
 
-        [react_1.createElement(_reactNative.View,
-
-            {
-                "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_notificationMessage",
-                "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_notificationMessage",
-
-
-                "cssClass": "notification",
-                "text": null,
-                "notifyType": {}
-            }, []),
-        react_1.createElement(_reactNative.Text, {
-            "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_messageHeaderContent",
-            "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_messageHeaderContent",
-            "cssClass": "form-message",
-            "text": "Your user ID and password are used to log in to this site. This page allows you to change your user ID. Your user ID must be between 8 and 26 characters in length and may be made up of both letters and numerals. Your user ID is not case sensitive.",
-            "visible": function () {
-                return true
-            }
-        }, ["Your user ID and password are used to log in to this site. This page allows you to change your user ID. Your user ID must be between 8 and 26 characters in length and may be made up of both letters and numerals. Your user ID is not case sensitive."]), react_1.createElement(_reactNative.View, {
-            "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_editZone"
-        }, [react_1.createElement(_reactNative.View, {
-            "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03_field_container"
-        }, [react_1.createElement(_reactNative.View, {
-            "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03_Label_container"
-        }, [react_1.createElement(_reactNative.Text, {
-            "htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
-            "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03_Label",
-            style : styles.labelMargin
-        }, ["Existing User ID"])]), react_1.createElement(_reactNative.Text, {
-            "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
-            "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl03",
-            "cssClass": "form-field-value",
-            "fieldCssClass": "",
-            "bindingMode": "OneTime"
-
-        }, ["SParmley"])]), react_1.createElement(_reactNative.View, {
+        [react_1.createElement(_reactNative.View, {
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_field_container"
         }, [react_1.createElement(_reactNative.View, {
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_Label_container"
@@ -102,6 +66,5 @@
             onPress: function () {
             }
         }, ["Cancel"])
-        ])
     
 })
