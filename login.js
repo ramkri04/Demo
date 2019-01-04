@@ -56,7 +56,7 @@
             "htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02_Label",
             style : styles.labelMargin
-        }, ["LOGIN"])]
+        }, ["LOGIN"])],
         ["Cancel"])
     
 })
