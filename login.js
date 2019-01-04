@@ -1,4 +1,3 @@
-
 (function main(React, ReactNative, componentState, Button, styles, require) {
     'use strict';
 
@@ -63,7 +62,7 @@
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
             "cssClass": "form-control component-group",
             "fieldCssClass": "",
-            style : styles.userNameItem,
+            style : styles.textInput,
             "bindingMode": "",
             onChangeText: function (val) {
                 componentState.setState({ confirmUserId: val })
@@ -81,18 +80,27 @@
             "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl02",
             "cssClass": "form-control component-group",
-             style : styles.passwordItem,
+             style : styles.textInput,
             "fieldCssClass": "",
             "bindingMode": "",
         }, [])])]), react_1.createElement(Button, {
             "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnConfirm",
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnConfirm",
             "cssClass": "btn btn-primary btn-full-width component-group",
-            "Label": "LOGIN",
-            style :  styles.loginButton,
+            "Label": "Save Changes",
+            style :  styles.cancelButton,
             onPress: function () {
-                () => this.validateUser()
+                alert(componentState.state.confirmUserId)
             }
-        }, ["Login"]),
+        }, ["Save Changes"]),
+        react_1.createElement(Button, {
+            "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnCancel",
+            "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnCancel",
+            "cssClass": "btn btn-secondary btn-full-width component-group",
+            "Label": "Cancel",
+            style :  styles.saveButton,
+            onPress: function () {
+            }
+        }, ["Cancel"])
         ])
 })
