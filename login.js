@@ -13,7 +13,7 @@
 
     return react_1.createElement(_reactNative.View, { style:styles.containerStyle },
 
-        [react_1.createElement(_reactNative.View, {
+        [react_1.createElement(_reactNative.View, style:styles.viewStyle {
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_field_container"
         }, [react_1.createElement(_reactNative.View, {
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_Label_container"
