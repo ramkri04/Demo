@@ -11,7 +11,7 @@
 
     var root = this;
 
-    return (react_1.createElement(_nativebase.Container, {style:styles.containerStyle },
+    return react_1.createElement(_nativebase.Container, {style:styles.containerStyle },
 
                 [react_1.createElement(_reactNative.View,{
                 "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_field_container",
@@ -57,6 +57,6 @@
                         style : styles.loginButtonLabel,
                     }, ["Login"])]
                 )])
-        )
+        
     
 })
