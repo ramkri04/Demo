@@ -88,7 +88,7 @@
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnConfirm",
             "cssClass": "btn btn-primary btn-full-width component-group",
             "Label": "Save Changes",
-            style :  styles.cancelButton,
+            style :  styles.loginButton,
             onPress: function () {
                 alert(componentState.state.confirmUserId)
             }
@@ -98,7 +98,7 @@
             "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_btnCancel",
             "cssClass": "btn btn-secondary btn-full-width component-group",
             "Label": "Cancel",
-            style :  styles.saveButton,
+            style :  styles.loginButton,
             onPress: function () {
             }
         }, ["Cancel"])
