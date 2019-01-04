@@ -1,4 +1,4 @@
-(function main(StyleSheet) {
+(function main(StyleSheet,Dimensions) {
 
   return StyleSheet.create({
     containerStyle: {
