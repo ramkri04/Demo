@@ -1,4 +1,4 @@
-(function main(React,NativeBase, ReactNative, componentState, Button, styles, require) {
+(function main(React, ReactNative, NativeBase,componentState, styles, require) {
     'use strict';
 
     Object.defineProperty(exports, "__esModule", {
@@ -11,7 +11,7 @@
 
     var root = this;
 
-     return react_1.createElement(_nativebase.Container, {style:styles.containerStyle },
+     return react_1.createElement(_nativebase.View, {style:styles.containerStyle },
 
                 [react_1.createElement(_reactNative.View,{
                 "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_field_container",
