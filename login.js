@@ -1,4 +1,4 @@
-(function main(React, ReactNative,componentState, styles, require) {
+(function main(React, ReactNative,NativeBase,componentState, styles, require) {
     'use strict';
 
     Object.defineProperty(exports, "__esModule", {
@@ -7,7 +7,7 @@
 
     var react_1 = React;
     var _reactNative = ReactNative;
-
+    var _nativebase = NativeBase;
     var root = this;
 
      return react_1.createElement(_nativebase.View, {style:styles.containerStyle },
