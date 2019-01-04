@@ -2,8 +2,8 @@
 
     return StyleSheet.create({
         containerStyle: {
-            height: '100%',
-            width: '100%',
+            height: "100%",
+            width: "100%",
             backgroundColor: 'transparent',
         },
         viewStyle: {
@@ -20,7 +20,7 @@
             paddingLeft: 10,
             fontSize: 24,
             fontWeight: '500',
-            width: '100%',
+            width: "100%",
             height: 50,
             borderWidth: 1,
             //textTransform: 'none',
@@ -48,15 +48,16 @@
         },
         loginButton: {
             backgroundColor: '#4568DC',
-            marginTop: '3%',
-            width: '90%',
-            marginLeft: '5%',
-            marginRight: '5%',
+            marginTop: "3%",
+            width: "90%",
+            marginLeft: "5%",
+            marginRight: "5%",
             marginTop: 40,
         },
         imageStyle: {
-            width: '100%',
+            width: "100%",
             height: 160
         }
     });
+
 });
