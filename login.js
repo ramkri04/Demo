@@ -4,7 +4,7 @@
     Object.defineProperty(exports, "__esModule", {
         value: true
     });
-
+    var logo = '../../Images/Mainlog.png';
     var react_1 = React;
     var _reactNative = ReactNative;
     var _nativebase = NativeBase;
