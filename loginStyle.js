@@ -53,10 +53,20 @@
         marginLeft: '5%',
         marginRight: '5%',
         marginTop: 40,
+       textAlign:'center',
+        justifyContent:'center'
     },
     imageStyle: {
       width: '100%',
-      height: 160
+      height: 160,
+    },
+    loginButtonLabel:{
+        color: '#FFFFFF',
+        fontSize: 18,
+        fontFamily: 'Arial',
+        textAlign:'center',
+        justifyContent:'center'
+
     }
 });
 });
