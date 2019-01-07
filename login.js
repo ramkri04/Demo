@@ -61,7 +61,7 @@
                                         onChangeText: function (val) {
                                             componentState.setState({ password: val })
                                         },
-                                         autoCapitalize : 'none'
+                                         autoCapitalize : 'none',
                                         placeHolder: "Enter the Password"
                                     }, [])
                                 ]),
