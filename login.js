@@ -26,8 +26,7 @@
                                         react_1.createElement(_nativebase.Label, {
                                         "htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
                                         "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_Label",
-                                        style : styles.userNameLabel,
-                                        autoCapitalize : 'none'
+                                        style : styles.userNameLabel
                                         },["UserName"]),
                                         react_1.createElement(_reactNative.TextInput, {
                                             "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
@@ -35,6 +34,7 @@
                                             "cssClass": "form-control component-group",
                                             "fieldCssClass": "",
                                             style : styles.inputStyle,
+                                            autoCapitalize : 'none',
                                             "bindingMode": "",
                                             onChangeText: function (val) {
                                                 componentState.setState({ userName: val })
@@ -61,7 +61,7 @@
                                         onChangeText: function (val) {
                                             componentState.setState({ password: val })
                                         },
-                                         autoCapitalize = 'none'
+                                         autoCapitalize : 'none'
                                         placeHolder: "Enter the Password"
                                     }, [])
                                 ]),
