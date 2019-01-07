@@ -26,7 +26,8 @@
                                         react_1.createElement(_nativebase.Label, {
                                         "htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
                                         "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04_Label",
-                                        style : styles.userNameLabel
+                                        style : styles.userNameLabel,
+                                        autoCapitalize : "none"
                                         },["UserName"]),
                                         react_1.createElement(_reactNative.TextInput, {
                                             "id": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl04",
