@@ -78,7 +78,7 @@
                                     "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl023_Label",
                                     style : styles.loginButtonLabel,
                                     onPress: function(){
-                                           this.loginCall()
+                                           root.loginCall()
                                     }
                                 }, ["Login"])]
                             )
