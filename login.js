@@ -73,16 +73,9 @@
                                     "htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl023",
                                     "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl023_Label",
                                     style : styles.loginButtonLabel,
-                                    onPress:{_reactNative.Alert.alert(
-                                                  'Alert Title',
-                                                  'My Alert Msg',
-                                                  [
-                                                    {text: 'Ask me later', onPress: () => console.log('Ask me later pressed')},
-                                                    {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
-                                                    {text: 'OK', onPress: () => console.log('OK Pressed')},
-                                                  ],
-                                                  { cancelable: false }
-                                                )}
+                                    onClick: function () {
+                                        return root.loginCall()
+                                          }
                                 }, ["Login"])]
                             )
 
