@@ -9,9 +9,6 @@
     var _nativebase = NativeBase;
     var root = this;
     
-     loginCall(){
-        console.log("Call Login ==>");
-    }
 
     return react_1.createElement(_nativebase.Container, {style:styles.containerStyle }, [
                 react_1.createElement(_reactNative.View, {
@@ -88,4 +85,8 @@
         
     
 })
-    
+
+
+     loginCall(){
+        console.log("Call Login ==>");
+    }
