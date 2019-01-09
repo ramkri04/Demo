@@ -72,7 +72,8 @@
                                 },[react_1.createElement(_reactNative.Text, {
                                     "htmlFor": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl023",
                                     "key": "M_layout_content_PCDZ_MNS7LAN_ctl00_ctl023_Label",
-                                    style : styles.loginButtonLabel
+                                    style : styles.loginButtonLabel,
+                                    onPress:{()=>{console.log("onPress Call =>")}}
                                 }, ["Login"])]
                             )
 
