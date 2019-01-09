@@ -86,7 +86,3 @@
     
 })
 
-
-     loginCall(){
-        console.log("Call Login ==>");
-    }
